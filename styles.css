@@ -2,11 +2,23 @@ body {
     margin: 0;
 }
 
+.restaurantName {
+    color: white;
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
 .carousel {
     max-width: 500px;
+    height: 80vh;
     margin: 2rem auto;
-    /* padding: 0 1rem; */
-    box-shadow: 5px 5px 5px darkgray;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px darkgray;
+    border-radius: 15px;
 }
 
 img{
@@ -20,4 +32,8 @@ img{
 .carousel-item p {
   font-size: 1rem;
   color: #f8f7f7;
+}
+
+.aboutUsSection {
+    padding: 20px;
 }
