@@ -17,8 +17,9 @@ body {
     height: 80vh;
     margin: 2rem auto;
     padding: 1rem;
-    box-shadow: 3px 3px 3px darkgray;
+    box-shadow: 3px 3px 3px rgb(63, 63, 63);
     border-radius: 15px;
+    border: 1px solid rgb(63, 63, 63)
 }
 
 img{
@@ -37,3 +38,4 @@ img{
 .aboutUsSection {
     padding: 20px;
 }
+
