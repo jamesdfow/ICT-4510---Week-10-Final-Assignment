@@ -17,13 +17,12 @@ body {
     height: 80vh;
     margin: 3rem auto;
     padding: 1rem;
-    /* box-shadow: 3px 3px 3px rgb(63, 63, 63); */
-    border-radius: 15px;
-    /* border: 1px solid rgb(63, 63, 63) */
+    /* border-radius: 15px; */
 }
 
 img{
-    border-radius: 5px;
+height: 80%;
+width: auto;
 }
 
 .innerText {
