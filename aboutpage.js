@@ -1,4 +1,4 @@
-const map = L.map('map').setView([40.7580, -73.9855], 15);
+const map = L.map('map').setView([39.678380, -104.961753], 19);
 
   // Add tile layer
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -6,7 +6,7 @@ const map = L.map('map').setView([40.7580, -73.9855], 15);
   }).addTo(map);
 
   // Add marker with popup
-  L.marker([40.7580, -73.9855])
+  L.marker([39.678380, -104.961753])
     .addTo(map)
-    .bindPopup('<strong>Papi’s Cocina</strong><br>123 Fictional Ave, NYC')
+    .bindPopup('Papi Grande Cocina<br>Denver, CO')
     .openPopup();
