@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+#login-form {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginCredentials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #1e1e1e;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="submit"] {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+}
+
+#welcome-message {
+  color: white;
+}
