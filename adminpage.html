@@ -73,6 +73,34 @@
       </div>
     </form>
 
+    <!-- Admin Dashboard (hidden until login) -->
+<div id="dashboard" style="display: none;">
+  <div class="loginCredentials">
+    <h3>Add Menu Item</h3>
+    <form id="menu-form">
+      <label for="item">Item Name</label>
+      <input type="text" id="item" required>
+
+      <label for="description">Description</label>
+      <input type="text" id="description" required>
+
+      <label for="price">Price</label>
+      <input type="text" id="price" required>
+
+      <input type="submit" value="Add Item">
+    </form>
+  </div>
+
+  <div class="loginCredentials" style="margin-top: 20px;">
+    <h3>Current Menu Items</h3>
+    <div id="menu-items-container"></div>
+  </div>
+
+  <div style="text-align: center; margin-top: 20px;">
+    <button id="logout-button" class="btn btn-danger">Logout</button>
+  </div>
+</div>
+
     <div id="welcome-message" style="display:none;">
   <h2>Welcome!</h2>
 </div>
